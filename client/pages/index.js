@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Construction Document Management</title>
+        <title>Nhan Nguyen - Construction Document Management</title>
       </Head>
 
       <main className={styles.main}>
