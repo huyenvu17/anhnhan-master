@@ -10,13 +10,18 @@ export default {
         },
         {
             name: 'slug',
-            type: 'string',
-            title: 'Slug'
+            type: 'slug',
+            title: 'Slug',
+            options: {
+                source: "name",
+                maxLength: 100
+            }
         },
-        // {
-        //     name: 'content',
-        //     type: 'document',
-        //     title: 'Content'
-        // },
+        {
+            title: 'Content', 
+            name: 'content',
+            type: 'array', 
+            of: [{type: "block"}] 
+        },
     ]
 }
