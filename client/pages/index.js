@@ -14,7 +14,6 @@ export default function Home() {
           More Contents to be updated!
         </h1>
       </main>
-
     </div>
   )
 }
